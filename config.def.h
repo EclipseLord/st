@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "inconsolata:size=14:antialias=true";
 static int borderpx = 2;
 
 /*
@@ -124,6 +124,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"black",
+	"#141c21"
 };
 
 
@@ -135,7 +136,7 @@ unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
-unsigned int bg = 17, bgUnfocused = 16;
+unsigned int bg = 259, bgUnfocused = 258;
 
 /*
  * Default shape of cursor
