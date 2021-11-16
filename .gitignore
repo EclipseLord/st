@@ -30,7 +30,6 @@
 
 # Project-specific
 st
-config.h
 
 pkg/*
 *.pkg.tar.xz
